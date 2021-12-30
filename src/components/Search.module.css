@@ -1,0 +1,35 @@
+.searchContainer{
+    display: flex;
+    justify-content: center;
+}
+.searchBox{
+    position: relative;
+}
+.searchButton{
+    position: absolute;
+    right: 10px;
+    top: 0;
+    height: 100%;
+    transition: all 0.3s ease-in-out;
+    color: #00d7e6;
+    opacity: 0.5;
+}
+.searchButton:hover{
+    color: #00d7e6;
+}
+.searchButton:focus{
+    color: #00b8e6;
+}
+.searchInput{
+    font-size: 1.2rem;
+    height: 30px;
+    border-radius: 10px;
+    padding: 5px 30px 5px 10px;
+    border: 1px solid white;
+    transition: all 0.3s ease-in-out;
+}
+.searchInput:focus{
+    outline: none;
+    border: 1px solid #00b8e6;
+    box-shadow: 0 0 5px #00d7e6;
+}
